@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ayush.medicare.NotificationActivity">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/notification_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:elevation="5dp"
+        android:fontFamily="monospace"
+        android:text="confirmation Notifications sent to user for appointment
+            will be shown here"
+        android:textAlignment="center"
+        android:textSize="15dp" />
+</RelativeLayout>

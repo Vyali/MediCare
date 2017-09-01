@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:elevation="5dp"
+    android:orientation="horizontal"
+    android:weightSum="3"
+
+
+    >
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="16dp"
+            android:src="@mipmap/ic_account_circle_black_24dp"
+
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="2"
+        android:elevation="5dp"
+
+
+        >
+
+        <TextView
+            android:id="@+id/n_heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="16dp"
+            android:text="helloo"
+
+            />
+
+        <TextView
+            android:id="@+id/body"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/n_heading"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="5dp"
+            android:text="content of the notification" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/body"
+            android:layout_marginTop="16dp"
+            android:background="#000">
+
+        </TextView>
+    </RelativeLayout>
+
+</LinearLayout>
